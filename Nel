@@ -1,0 +1,28 @@
+# Welcome to banri-OS server
+time.sleep(1)
+print("\n// welcome".upper())
+time.sleep(0.6)
+asf_ping = random.randint(70,999)
+print ("[$] Hacker asf")
+time.sleep(0.6)
+print ("[$] Server ping:"+str(asf_ping)+"+")
+time.sleep(1)
+# Server ping speed
+if asf_ping < 100 :
+  print("[+] server speed:very fast")
+elif asf_ping < 200 :
+  print("[+] server speed:fast")
+elif asf_ping < 300 :
+  print("[+] server speed:bit slow")
+elif asf_ping < 400 :
+  print("[+] server speed:average")
+elif asf_ping < 500 :
+  print("[+] server speed:below average")
+elif asf_ping < 600 :
+  print("[+] server speed:slow")
+elif asf_ping < 700 :
+  print("[+] server speed:very slow")
+elif asf_ping < 800 :
+  print("[+] server almost unreachable")
+else :
+  print("[+] server details not found!")
