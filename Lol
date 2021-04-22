@@ -1,0 +1,5 @@
+# Usercode generation
+user_random = random.randint(1,1000)
+user_code = sys.getsizeof(username) * user_random
+print ("[*] usercode:hasfcd"+str(user_code))
+time.sleep(0.6)
