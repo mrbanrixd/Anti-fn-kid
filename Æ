@@ -1,1 +1,9 @@
-./git.sh
+
+# Login/signup info
+time.sleep(2)
+print("\n\n>>> create/log-in account <<<".upper())
+time.sleep(0.6)
+print("[*] login to free Hacker asf account")
+time.sleep(0.6)
+print("[*] no email or phone number needed\n")
+time.sleep(0.6)
