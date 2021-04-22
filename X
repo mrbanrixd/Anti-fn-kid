@@ -1,0 +1,3 @@
+# Server ping for social media
+ser_ping = random.randint(80,999)
+print("[$]",social_media,"server ping:"+str(ser_ping)+"+")
