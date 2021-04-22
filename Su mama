@@ -1,0 +1,12 @@
+# Password length and strength
+leng =(len(password))
+print("[*] Length  :",leng)
+time.sleep(0.6)
+if leng < 8 :
+  print ("[*] Password:not strong")
+elif leng >= 12:
+  print("[*] Password:very strong")
+else :
+  print ("[*] Strength:strong")
+time.sleep(0.6)
+print ("[*] saved succesful")
