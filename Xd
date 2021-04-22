@@ -1,1 +1,8 @@
-git init
+# Description
+time_per_word(0.03)
+desc = ("//Description:This programme is used to\nsimulate brute-force/dictionary attack.")
+des_c = ("It \ndoesn't really work,I'm not responsible\nif you get frustrated.No need to enter\nyour own username or password,No problem\nif gave,I'm not collecting anything,©2021")
+full_desc = desc + des_c
+for info in list(full_desc):
+    print(info, end="",flush=True)
+    time_per_word(0.03)
