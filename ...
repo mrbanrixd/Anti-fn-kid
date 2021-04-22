@@ -1,0 +1,7 @@
+# Username input and availability
+username=input("[-] username:")
+time.sleep(1)
+print ("[*] username:available")
+time.sleep(0.6)
+print ("[+] username:saved as",username)
+time.sleep(0.6)
