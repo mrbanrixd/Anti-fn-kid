@@ -1,0 +1,11 @@
+#Final info and Thanks
+time.sleep(1)
+print("\n\n[*] Thanks for using my p-tool")
+time.sleep(0.5)
+print("[*] Follow me on instagram: @flynn_bait")
+time.sleep(0.2)
+print("[*] Subscribe on YouTube: Trick Bait YT ")
+time.sleep(0.2)
+print("[*] Give me a star\U0001F600")
+time.sleep(0.2)
+print("         THANKS to GOOGLE,Instagram,Dcoder")
