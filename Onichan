@@ -1,0 +1,8 @@
+# Result + Showing username
+print("[$] report".upper())
+time.sleep(2)
+work_rate = random.randint(20,100)
+print("[$] task work rate:"+str(work_rate))
+time.sleep(1)
+print("[$] username:",target_id)
+time.sleep(1)
