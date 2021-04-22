@@ -1,0 +1,9 @@
+# Another time delay when ping is high or low
+if ser_ping < 100 :
+  time.sleep(1)
+elif ser_ping > 100 :
+  time.sleep(3)
+elif ser_ping > 200 :
+  time.sleep(6)
+else :
+  time.sleep(4)
