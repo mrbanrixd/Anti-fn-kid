@@ -1,0 +1,5 @@
+# Password input
+password=input("\n[-] password:")
+time.sleep(2)
+print("[+] password:saved as",password)
+time.sleep(0.6)
