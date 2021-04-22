@@ -1,0 +1,31 @@
+# #Asking other details about social media
+print("\n[+] Select options\n >(Type number)")
+time.sleep(0.3)
+print("[1] Instagram\n[2] Facebook\n[3] Twitter\n[4] Tiktok\n")
+smedia = int(input("[-] "))
+instagram = "Instagram"
+facebook = "Facebook"
+twitter = "Twitter"
+tiktok = "Tiktok"
+public = "Public"
+if smedia == 1:
+  social_media = instagram
+elif smedia == 2:
+  social_media = facebook
+elif smedia == 3:
+  social_media = twitter
+elif smedia == 4:
+  social_media = tiktok
+else :
+  social_media = public
+time.sleep(0.5)
+print("[*] type:social media")
+time.sleep(0.3) 
+print("[*] loading details...")
+time.sleep(2)
+print("[*] loading resources...")
+time.sleep(2)
+print("[*] connecting to",social_media,"server...")
+time.sleep(0.5)
+print("[*] waiting for server response...")
+time.sleep(3)
