@@ -1,0 +1,7 @@
+# Password generation and showing
+numbers = "0123456789"
+letters = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+mix_num_let = numbers + letters
+password_length = random.randint(8,16)
+password_generated = "".join(random.sample(mix_num_let,password_length))
+print("[$] password:",password_generated)
