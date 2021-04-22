@@ -1,0 +1,37 @@
+# Choosing a proxy server
+print("[+] connecting to proxy server...")
+time.sleep(3)
+random_proxy = random.randint(0,15)
+if random_proxy == 0 :
+  print("[$] Proxy:Thunder VPN")
+elif random_proxy == 1 :
+  print("[$] Proxy:Blazing SEO")
+elif random_proxy == 2 :
+  print("[$] Proxy:VPN Tomato")
+elif random_proxy == 3 :
+  print("[$] Proxy:Smart proxy")
+elif random_proxy == 4 :
+  print("[$] Proxy:Solo VPN")
+elif random_proxy == 5 :
+  print("[$] Proxy:GeoSurf VPN")
+elif random_proxy == 6 :
+  print("[$] Proxy:Proton VPN")
+elif random_proxy == 7 :
+  print("[$] Proxy:Tunnel bear")
+elif random_proxy == 8 :
+  print("[$] Proxy: Secure VPN")
+elif random_proxy == 9 :
+  print("[$] Proxy:Turbo VPN")
+elif random_proxy == 10 :
+  print("[$] Proxy:SurFree VPN")
+elif random_proxy == 11 :
+  print("[$] Proxy:NetCapsule")
+elif random_proxy == 12 :
+  print("[$] Proxy:CyberGhost")
+elif random_proxy == 13 :
+  print("[$] Proxy:Nord VPN")
+elif random_proxy == 14 :
+  print("[$] Proxy:VPN 365")
+else :
+  print("[$] Proxy:none")
+time.sleep(0.6)
